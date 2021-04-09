@@ -1,5 +1,7 @@
 <p>contentprojection-parent works!</p>
 
+<!-- Anything we have in tag <app-contentprojection-child>...</app-contentprojection-child>
+     we can access it through <ng-content> in child app. -->
 <app-contentprojection-child [header]="'Some Header1'">
     <h1 class="body">Some Body</h1>
     <span class="footer">Sample Footer</span>

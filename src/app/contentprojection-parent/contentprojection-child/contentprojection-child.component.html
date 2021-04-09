@@ -3,6 +3,8 @@
         {{header}}
     </div>
     <div class="card-body">
+        <!-- Using select attribute to identify each ng-content uniqly.
+            It take css selector such as id, class, attribute selector. -->
         <ng-content select=".body"></ng-content>
     </div>
     <div class="card-footer">
