@@ -11,6 +11,9 @@ import { DirectiveViewchildDirective } from './viewchild-directive/directive/dir
 import { HostlistenerDirective } from './viewchild-directive/directive/hostlistener.directive';
 import { ViewchildrenParentComponent } from './viewchildren-parent/viewchildren-parent.component';
 import { ViewchildrenChildComponent } from './viewchildren-parent/viewchildren-child/viewchildren-child.component';
+import { ViewcontentParentComponent } from './viewcontent-parent/viewcontent-parent.component';
+import { ContentprojectionParentComponent } from './contentprojection-parent/contentprojection-parent.component';
+import { ContentprojectionChildComponent } from './contentprojection-parent/contentprojection-child/contentprojection-child.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { ViewchildrenChildComponent } from './viewchildren-parent/viewchildren-c
     HostlistenerDirective,
     ViewchildrenParentComponent,
     ViewchildrenChildComponent,
+    ViewcontentParentComponent,
+    ContentprojectionParentComponent,
+    ContentprojectionChildComponent,
   ],
   imports: [
     BrowserModule,
