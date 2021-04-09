@@ -24,8 +24,13 @@ ngAfterViewInit() {
   console.log(this.viewchildChildComponent.getName());
 
   // Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked.
-  // Resolve this error using detectChanges()
-  // this.cd.detectChanges();
+  // Resolve this error using detectChanges(). Do not use detectChanges() if we use viewChild in ngOnInit()
+  this.cd.detectChanges();
+}
+
+updatedVal() {
+  // Update child component value from parent component
+  this.viewchildChildComponent.selectedVal = this.viewchildChildComponent.selectedVal + ' Patel'; 
 }
 
 }

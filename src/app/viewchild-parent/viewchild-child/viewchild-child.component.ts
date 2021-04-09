@@ -13,6 +13,8 @@ export class ViewchildChildComponent implements OnInit {
   // Access and update element using ViewChild()
   // We can access myName in ngOnInit() using {static: true}
   @ViewChild('myName') myName: ElementRef;
+  // First occurence of template child element, without element we cannto access viewChild. Dont directly mess with any element.
+  // Strongly recomend not access dom like this with viewchild angular has batterway to access such as string interpolation property binding.
 
   constructor() { }
 
@@ -29,5 +31,6 @@ export class ViewchildChildComponent implements OnInit {
 
   onClick() {
     this.selectedVal = this.myName.nativeElement.value;
+    console.log(this.selectedVal);
   }
 }
