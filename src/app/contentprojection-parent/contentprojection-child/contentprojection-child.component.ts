@@ -12,7 +12,6 @@ export class ContentprojectionChildComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {}
-  
   // Content Projection: Use when we need static panel and dynamics body in it.For proj. cont. <ng-content> in body
   // If we have similar design in project but content will be dynamic in that purpose we will use content projection.
   // If we have data such as string, number, arrey, obj we can pass with @Input() decorater, it will not use for html content.
