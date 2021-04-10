@@ -1,0 +1,16 @@
+<p>ex-content-child-child works!</p>
+<div class="card">
+    <div class="card-header">
+        {{header}}
+    </div>
+    <div class="card-body">
+        <ng-content></ng-content>
+        <!-- Using select attribute to identify each ng-content uniqly.
+            It take css selector such as id, class, attribute selector. -->
+        <ng-content select=".body"></ng-content>
+    </div>
+    <div class="card-footer">
+        {{today}}
+        <ng-content select=".footer"></ng-content>
+    </div>
+</div>

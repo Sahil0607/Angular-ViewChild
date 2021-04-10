@@ -14,6 +14,12 @@ import { ViewchildrenChildComponent } from './viewchildren-parent/viewchildren-c
 import { ViewcontentParentComponent } from './viewcontent-parent/viewcontent-parent.component';
 import { ContentprojectionParentComponent } from './contentprojection-parent/contentprojection-parent.component';
 import { ContentprojectionChildComponent } from './contentprojection-parent/contentprojection-child/contentprojection-child.component';
+import { ContentchildParentComponent } from './contentchild-parent/contentchild-parent.component';
+import { ContentchildChildComponent } from './contentchild-parent/contentchild-child/contentchild-child.component';
+import { ContentchildComponent } from './contentchild-parent/contentchild/contentchild.component';
+import { ExContentChildParentComponent } from './ex-content-child-parent/ex-content-child-parent.component';
+import { ExContentChildChildComponent } from './ex-content-child-parent/ExContentChild-parent/ex-content-child-child/ex-content-child-child.component';
+import { DateViewerComponent } from './ex-content-child-parent/date-viewer/date-viewer.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +35,12 @@ import { ContentprojectionChildComponent } from './contentprojection-parent/cont
     ViewcontentParentComponent,
     ContentprojectionParentComponent,
     ContentprojectionChildComponent,
+    ContentchildParentComponent,
+    ContentchildChildComponent,
+    ContentchildComponent,
+    ExContentChildParentComponent,
+    ExContentChildChildComponent,
+    DateViewerComponent,
   ],
   imports: [
     BrowserModule,
