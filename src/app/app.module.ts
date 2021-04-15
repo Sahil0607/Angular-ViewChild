@@ -20,6 +20,10 @@ import { ContentchildComponent } from './contentchild-parent/contentchild/conten
 import { ExContentChildParentComponent } from './ex-content-child-parent/ex-content-child-parent.component';
 import { ExContentChildChildComponent } from './ex-content-child-parent/ExContentChild-parent/ex-content-child-child/ex-content-child-child.component';
 import { DateViewerComponent } from './ex-content-child-parent/date-viewer/date-viewer.component';
+import { ChangedetectionParentComponent } from './changedetection-parent/changedetection-parent.component';
+import { ChangedetectionChildComponent } from './changedetection-parent/changedetection-child/changedetection-child.component';
+import { NgZoneParentComponent } from './ng-zone-parent/ng-zone-parent.component';
+import { NgZoneChildComponent } from './ng-zone-parent/ng-zone-child/ng-zone-child.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +45,10 @@ import { DateViewerComponent } from './ex-content-child-parent/date-viewer/date-
     ExContentChildParentComponent,
     ExContentChildChildComponent,
     DateViewerComponent,
+    ChangedetectionParentComponent,
+    ChangedetectionChildComponent,
+    NgZoneParentComponent,
+    NgZoneChildComponent,
   ],
   imports: [
     BrowserModule,
